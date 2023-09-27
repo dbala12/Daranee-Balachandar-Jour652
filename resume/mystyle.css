@@ -2,3 +2,8 @@ h1{
 color: blue;
 font-size: 36px;
 }
+BODY {
+    font-family: 'Open Sans', arial, sans-serif;
+    font-size: 1em;
+    color: #444;
+}
