@@ -38,7 +38,23 @@ h3{
 }
 
 @media screen and (max-width: 500px) {
-    /*Add CSS that only activates on screens less than 500px here*/
+   
+    .row {
+        padding-bottom: 50px;
+    }
+
+    .btn{
+        background-color: teal;
+    }
+
+    .button{
+        background-color: teal;
+    }
+
+    h2{
+        padding-top: 50px;
+    }
+    
   }
 
  
