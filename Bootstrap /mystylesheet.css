@@ -1,0 +1,37 @@
+.row{
+    text-align: center;
+    padding-bottom: 50px
+}
+
+.button{
+    margin-top: 20px;
+    font-family: Special Elite;
+}
+
+h1{
+    font-family: Special Elite; 
+    text-align: center;
+}
+
+h2{
+    font-family: Special Elite; 
+}
+
+h3{
+    font-family: Special Elite;  
+}
+.navbar-brand{
+    font-family: Special Elite;   
+}
+
+.btn{
+    font-family: Special Elite;  
+}
+
+@media screen and (max-width: 500px) {
+    /*Add CSS that only activates on screens less than 500px here*/
+  }
+
+  .footer{
+    font-color: white;
+  }
