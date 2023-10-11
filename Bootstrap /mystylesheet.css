@@ -10,11 +10,20 @@
 
 h1{
     font-family: Special Elite; 
-    text-align: center;
+    text-align: left;
+}
+
+p.lead{
+    text-align: left
 }
 
 h2{
     font-family: Special Elite; 
+}
+
+.image{
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 h3{
