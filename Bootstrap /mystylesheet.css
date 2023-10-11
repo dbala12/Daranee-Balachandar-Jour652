@@ -21,6 +21,10 @@ h2{
     font-family: Special Elite; 
 }
 
+.bi{
+    font-size: 3em;
+}
+
 .image{
     padding-left: 20px;
     padding-right: 20px;
@@ -54,7 +58,7 @@ h3{
     h2{
         padding-top: 50px;
     }
-    
+
   }
 
  
