@@ -4,6 +4,38 @@
     margin: 0 auto;
 }
 .masthead{
-    size: 50%;
-    margin: 0 auto;
+    height: 10%;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 30;
+    margin-left: 0;
+    width:70%;
+    min-width:300px;
+    }
+
+#h1{
+    font-size: 30px;
+    margin:0 auto; 
+    color: black;
+    font-weight: 600;
+    font-family: Helvetica, sans-serif;
+}
+#author{
+    margin-top: 10;
+    margin-bottom: 10px;
+    color: black;
+    font-weight: 400;
+    font-size: 12px;
+    font-family: Helvetica;
+}
+#byline{
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    color: grey;
+}
+p{
+    font-family: Georgia, serif;
+    font-size: 13px;
+    color: black;
 }
