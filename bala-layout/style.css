@@ -7,7 +7,7 @@
     height: 10%;
     margin-top: 0;
     margin-right: 0;
-    margin-bottom: 30;
+    margin-bottom: 30px;
     margin-left: 0;
     width:70%;
     min-width:300px;
@@ -21,10 +21,10 @@
     font-family: Helvetica, sans-serif;
 }
 #author{
-    margin-top: 10;
-    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 0;
     color: black;
-    font-weight: 400;
+    font-weight: bold;
     font-size: 12px;
     font-family: Helvetica;
 }
@@ -33,9 +33,45 @@
     font-size: 14px;
     font-style: italic;
     color: grey;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#date{
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: black;
+    font-weight: 400;
+    font-size: 10px;
+    font-family: Helvetica;
 }
 p{
     font-family: Georgia, serif;
     font-size: 13px;
     color: black;
+}
+.image1{
+    height: 30%;
+    width: 30%;
+}
+blockquote {
+    font: 16px/24px normal helvetica, sans-serif; 
+    font-style: italic; 
+    margin-top: 15px; 
+    margin-bottom: 15px; 
+    color: red; 
+    margin-left: 50px; 
+    padding-left: 15px; 
+    border-left: 4px solid #ccc; 
+    } 
+.links{
+    font-family: Georgia, serif;
+    font-size: 13px;
+    color: black; 
+    font-weight: 600;
+    }
+#caption{
+    color: grey;
+    font-weight: 400;
+    font-size: 12px;
+    font-family: Helvetica;
 }
