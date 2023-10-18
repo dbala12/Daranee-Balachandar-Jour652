@@ -1,0 +1,121 @@
+﻿Jour352/652: Midterm
+Part 1: Q&A
+
+
+Directions:
+
+
+1.  The only thing you should have open on your desktop is this text file in VS Code or ATOM. Do not save it in another format.
+
+
+2. You may only use your brain only. Put away all books, papers, notes, etc. Put away all electronic devices. Close all browsers and all other programs. Do not turn on syntax highlighting.
+
+
+4.  Answer every question.
+
+
+5.  If you don't understand what I'm asking for on a question, please ask me.
+
+
+6. When you are done, please save your document as “your-name-midterm-pt1.txt” and submit on ELMS.  Also, let me know you have completed the first portion of your midterm.
+
+
+****
+
+
+1.  In the sentence below, put in the necessary code that would allow users to click on the word Google and open Google's homepage in a new browser:
+
+
+Google is the best search engine in the world.
+
+
+<a href="url">Google</a>
+
+I am unsure of the google url but it should start with https://www.google.com.
+
+2.  Describe the purpose of a DIV tag.
+
+The div tag is used to define a division or section of a HTML document. It is also used to contain the content of a HTML document or element. The div is usually defined in CSS by using the class and id attributes in it. 
+
+For example: <div class="line"></div>
+
+3.  Write out the basic structure of an HTML page, putting the basic tags in the correct position.  (Note: you don't need to connect it to a stylesheet or include DIV tags or anything like that).
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Title Text</title>
+</head>
+<body>
+<h1>Heading 1</h1>
+<p>Paragraph text</p>
+</body>
+</html>
+
+
+4.  There are two main "areas" or "sections" in the basic structure of an HTML page. In which area would you put a link to a stylesheet?
+
+The link to a stylesheet should go in the <head> section. For example,
+<head>
+<link rel="stylesheet" href="mystylesheet.css">
+</head>
+
+This is because the <head> section contains the metadata of the HTML document which isn't usually displayed. For example, linking the stylesheet, the title and more.
+
+
+5.  In which main "area" or "section" of an HTML page would you put text, images or DIV tags?
+
+The text, images and div tags should go in the <body> area of the HTML page. The <body> contains the content of the HTML document such as the text, images and such. For example, 
+
+<body>
+<div class="container">
+<h1>Heading 1</h1>
+<p>Paragraph text</p>
+<img src="image.jpg" alt="alternative text">
+</div>
+</body>
+
+
+6.  In the space below, put one DIV tag with a class of graphicbox and a second DIV tag with an ID of name.
+
+<div class="graphicbox">Graphicbox</div>
+<div id="name">Name</div>
+
+
+7.  In the space below, put one DIV tag with an ID of apples and a class of fruit.
+
+<div id="apples" class="fruit">Apples and Fruit</div>
+
+
+
+8.  In the space below, write the correct CSS code to target a DIV with a class of fruit.  Make the color of the text black (#000000).
+
+.fruit{
+color: #000000;
+}
+
+or 
+
+.fruit{
+color: black;
+}
+
+
+9.  What tag would we use to include an image on an HTML page? Just give me the name of the tag, you don't have to write out all the code.
+
+I would say the <div> tag but I have been able to attach class to an image tag on html and work with that on css. If it is the <div> tag I would assign a class called image. 
+
+
+10.  Why do we use media queries?
+
+Media queries are used to adjust the width and height of contents in the HTML document to viewport and various types of devices such as phone screens, laptop screens and tablet screens. The media queries usually go in the CSS style sheet. 
+
+
+11. What is the main difference between a serif and a sans-serif font?
+
+Serif font is more traditional font used in print. Sans-serif font has modern font that is more apt and pleasing for reading onscreen or digitally.
+
+
+12. Which of the following is a hexadecimal code?
+#FFCC33
+
