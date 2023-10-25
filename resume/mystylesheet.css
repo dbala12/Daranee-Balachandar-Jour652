@@ -40,6 +40,7 @@ body{
 
 #about{
     padding-top: 20px;
+    padding-bottom: 10px;
     font-size: 2em;
     font-family: 'Montserrat', arial, sans-serif;
     text-align: center;
@@ -47,12 +48,14 @@ body{
 }
 #experience{
     font-size: 2em;
+    padding-bottomr: 10px;
     font-family: 'Montserrat', arial, sans-serif;
     text-align: center;
     color: #9cadce;
 }
 #education{
     padding-top: 20px;
+    padding-bottom: 10px;
     font-size: 2em;
     font-family: 'Montserrat', arial, sans-serif;
     text-align: center;
@@ -60,12 +63,14 @@ body{
 }
 #clips{
     font-size: 2em;
+    padding-bottom: 10px;
     font-family: 'Montserrat', arial, sans-serif;
     text-align: center;
     color: #9cadce;
 }
 #skills{
     padding-top: 20px;
+    padding-bottom: 10px;
     font-size: 2em;
     font-family: 'Montserrat', arial, sans-serif;
     text-align: center;
