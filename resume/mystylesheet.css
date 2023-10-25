@@ -1,7 +1,7 @@
 /*Myresumestyle*/
 .navbar-brand{
-    font-family: 'Montserrat', arial, sans-serif;   
-
+    font-family: 'Montserrat', arial, sans-serif;
+    color: #9cadce;   
 }
 body{
     font-family: Helvetica, arial, sans-serif;
@@ -48,7 +48,7 @@ body{
     font-size: 2em;
     font-family: 'Montserrat', arial, sans-serif;
     text-align: center;
-    color: #9cadce;
+    color: #9cadce; 
 }
 #experience{
     font-size: 2em;
