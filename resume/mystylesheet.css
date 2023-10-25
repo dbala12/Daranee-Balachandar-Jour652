@@ -1,0 +1,128 @@
+/*Myresumestyle*/
+.navbar-brand{
+    font-family: 'Montserrat', arial, sans-serif;   
+}
+body{
+    font-family: Helvetica, arial, sans-serif;
+    font-size: 1em;
+    color: black;
+    font-weight:400;
+}
+
+#content{
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.banner{
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 20px;
+    margin-left: 0;
+    width:100%;
+    min-width:100px;
+}
+
+.jobtitle{
+    font-weight: bold;
+}
+
+.date{
+    font-style: italic;
+}
+
+.bi{
+    font-size: 3em;
+    color: #9cadce;
+    text-align: center;
+}
+
+#about{
+    padding-top: 20px;
+    font-size: 2em;
+    font-family: 'Montserrat', arial, sans-serif;
+    text-align: center;
+    color: #9cadce;
+}
+#experience{
+    font-size: 2em;
+    font-family: 'Montserrat', arial, sans-serif;
+    text-align: center;
+    color: #9cadce;
+}
+#education{
+    padding-top: 20px;
+    font-size: 2em;
+    font-family: 'Montserrat', arial, sans-serif;
+    text-align: center;
+    color: #9cadce;
+}
+#clips{
+    font-size: 2em;
+    font-family: 'Montserrat', arial, sans-serif;
+    text-align: center;
+    color: #9cadce;
+}
+#skills{
+    padding-top: 20px;
+    font-size: 2em;
+    font-family: 'Montserrat', arial, sans-serif;
+    text-align: center;
+    color: #9cadce;
+}
+
+ul.timeline-3 {
+    list-style-type: none;
+    position: relative;
+  }
+  ul.timeline-3:before {
+    content: " ";
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+  }
+  ul.timeline-3 > li {
+    margin: 20px 0;
+    padding-left: 20px;
+  }
+  ul.timeline-3 > li:before {
+    content: " ";
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #22c0e8;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+  }
+  .footer{
+    color: white;
+  }
+
+  @media screen and (max-width: 500px) {
+    body{
+        font-family: Helvetica, arial, sans-serif;
+        font-size: 1em;
+        color: black;
+        font-weight:400;
+    }
+    
+    #content{
+        width: 100%;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    
+    .bi{
+        font-size: 3em;
+        color: #9cadce;
+        text-align: center;
+    }
+  }
