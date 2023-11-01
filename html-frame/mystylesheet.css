@@ -25,11 +25,17 @@ p{
     font-family: 'Montserrat', sans-serif;
 }
 .image{
-        width: 100%;
-        max-width: 800px;
-        margin: 0 auto;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
     }
 
 .row{
     font-size: 1em;
+}
+
+.footer{
+    font-size: 1em;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
