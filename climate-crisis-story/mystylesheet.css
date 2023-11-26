@@ -41,3 +41,22 @@ p{
     font-family: 'Montserrat', sans-serif;
     color: white;
 }
+
+/* Nav */
+
+.nav-logo{
+    color: white;
+    margin: 0 auto;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+.red{
+    color: #ff4500;
+}
+
+
+/* Media queries */
