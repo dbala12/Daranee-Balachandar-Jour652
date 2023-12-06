@@ -1,3 +1,7 @@
+.container {
+    max-width: 800px;
+}
+
 .headline{
     font-size: 3em;
     font-weight: 700;
@@ -12,19 +16,63 @@
     text-align: center;
 }
 p{
-    font-family: Georgia, serif;
+    font-family: 'Montserrat', sans-serif;
     line-height: 180%;
 }
+
 .nav-logo{
     color: white;
     margin: 0 auto;
-    font-weight: 700;
+    font-weight: 500;
+    font-size: 2em;
     text-transform: uppercase;
-    font-family: 'OPTIEngraversOldEnglish', serif;
+    font-family: 'Grenze Gotisch', serif;
 }
 .red{
     color: #F53535;
 }
+
+.bi{
+    font-size: 1em;
+    color: #F53535;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+/* Splash area */
+
+.hero-container{
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-image{
+    width: 100%;
+}
+
+.overlay{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    background: #000;
+    opacity: .7;
+}
+
+.hero-hed{
+    font-family: 'Monserrat', sans-serif;
+    font-size: 5em;
+    color: white;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.hero-sub{
+    font-family: 'Montserrat', sans-serif;
+    font-size: .25em;
+}
+
 .chapter{
     font-size: 2em;
     font-weight: 600;
@@ -38,7 +86,27 @@ p{
     }
 
 .row{
-    font-size: 1em;
+    font-size: 2em;
+    text-align: right;
+    color: #F53535;
+    padding-bottom: 5%;
+}
+
+.caption{
+    margin: 0 auto;
+    padding-top: 10px;
+    text-align: center;
+}
+
+#caption-top{
+    margin: 0 auto;
+    padding-top: 10px;
+    text-align: center; 
+}
+
+.y{
+    color: #F53535;
+    font-size: 3em; 
 }
 
 .footer{
@@ -46,4 +114,25 @@ p{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     color: white;
+}
+/* Media queries */
+
+@media screen and (max-width: 500px) {
+    p{
+      padding-left: 20px;
+      padding-right: 10px;
+    }
+  
+    .chapter-head {
+      font-size: 1.25em;
+    }
+  
+    .hed{
+      font-size: 2em;
+  }
+  
+  .hero-hed{
+      font-size: 1em;
+  }
+
 }
