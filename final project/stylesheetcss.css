@@ -15,10 +15,16 @@ p{
     font-family: Georgia, serif;
     line-height: 180%;
 }
-.nav-brand{
-    font-family: 'Montserrat', sans-serif;
+.nav-logo{
+    color: white;
+    margin: 0 auto;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'OPTIEngraversOldEnglish', serif;
 }
-
+.red{
+    color: #F53535;
+}
 .chapter{
     font-size: 2em;
     font-weight: 600;
