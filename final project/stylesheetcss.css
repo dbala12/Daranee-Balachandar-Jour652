@@ -10,7 +10,7 @@
 }
 
 .byline{
-    font-size: 1em;
+    font-size: 0.3em;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
@@ -26,11 +26,27 @@ p{
     font-weight: 400;
     font-size: 2em;
     text-transform: uppercase;
-    font-family: 'Grenze Gotisch', serif;
+    font-family: 'Special Elite', serif;
 }
 .red{
     color: #F53535;
 }
+
+blockquote {
+    color: #F53535; 
+    font: 26px/30px 'Special Elite', serif;
+    font-style: italic;
+    font-weight: 600;
+    margin-top: 15px; 
+    margin-bottom: 15px; 
+    margin-left: 50px; 
+    padding-left: 15px; 
+    border-left: 4px solid #ccc; 
+    } 
+
+.pullquote{
+        font-family: 'Special Elite', serif;
+    }
 
 .bi{
     font-size: 1em;
@@ -70,16 +86,17 @@ p{
 
 .author{
     font-family: 'Montserrat', sans-serif;
-    font-size: 1em;
+    font-size: 0/.5em;
+    text-transform: uppercase;
     padding-bottom: 5px;
-    font-weight: 600;
+    font-weight: 500;
     margin: 0 auto;
 }
 
 .chapter{
     font-size: 2em;
     font-weight: 600;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Special Elite', serif;
 }
 .image{
     width: 100%;
@@ -137,19 +154,22 @@ p{
 .y{
     color: #F53535;
     font-size: 3em; 
+    font-weight: 500;
 }
 
 .links{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Special Elite', serif;
     font-size: 1.5em;
     color: black; 
     font-weight: 600;
     margin-top: 20px;
+    margin-bottom: 10px;
     }
 
 #hyperlinks{
     font-family: 'Montserrat', sans-serif;
     color: #F53535;
+    margin-bottom: 20px;
 }
 
 .footer{
